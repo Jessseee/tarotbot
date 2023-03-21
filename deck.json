@@ -1,0 +1,396 @@
+{
+    "the_fool":{
+        "attribute":[
+            "innocence", "new beginnings", "free spirit"
+        ]
+    },
+    "the_high_priestess":{
+        "attribute":[
+            "intuitive", "unconscious", "inner voice"
+        ]
+    },
+    "the_magician":{
+        "attribute":[
+            "willpower", "desire", "creation", "manifestation"
+        ]
+    },
+    "the_empress":{
+        "attribute":[
+            "motherhood", "fertility", "nature"
+        ]
+    },
+    "the_emperor":{
+        "attribute":[
+            "authority", "structure", "control", "fatherhood"
+        ]
+    },
+    "the_hiedrophant":{
+        "attribute":[
+            "tradition", "conformity", "morality", "ethics"
+        ]
+    },
+    "the_lovers":{
+        "attribute":[
+            "partnerships", "duality", "union"
+        ]
+    },
+    "strenght":{
+        "attribute":[
+            "inner strength", "bravery", "compassion", "focus"
+        ]
+    },
+    "the_hermit":{
+        "attribute":[
+            "contemplation", "search for truth", "inner guidance"
+        ]
+    },
+    "wheel_of_fortune":{
+        "attribute":[
+            "change", "cycles", "inevitable fate"
+        ]
+    },
+    "justice":{
+        "attribute":[
+            "cause and effect", "clarity", "truth"
+        ]
+    },
+    "death":{
+        "attribute":[
+            "end of cycle", "beginnings", "change", "metamorphosis"
+        ]
+    },
+    "temperance":{
+        "attribute":[
+            "middle path", "patience", "finding meaning"
+        ]
+    },
+    "the_devil":{
+        "attribute":[
+            "addiction", "materialism", "playfulness"
+        ]
+    },
+    "the_tower":{
+        "attribute":[
+            "sudden upheaval", "broken pride", "disaster"
+        ]
+    },
+    "the_star":{
+        "attribute":[
+            "hope", "faith", "rejuvenation"
+        ]
+    },
+    "the_moon":{
+        "attribute":[
+            "unconscious", "illusions", "intuition"
+        ]
+    },
+    "the_sun":{
+        "attribute":[
+            "joy", "success", "celebration", "positivity"
+        ]
+    },
+    "judgement":{
+        "attribute":[
+            "reflection", "reckoning", "awakening"
+        ]
+    },
+    "the_world":{
+        "attribute":[
+            "fulfillment", "harmony", "completion"
+
+        ]
+    },
+    "knight_of_wands":{
+        "attribute":[
+            "action", "adventure", "fearlessness"
+
+        ]
+    },
+    "king_of_wands":{
+        "attribute":[
+            "big picture", "leader", "overcoming challenges"
+
+        ]
+    },
+    "queen_of_wands":{
+        "attribute":[
+            "courage", "determination", "joy"
+
+        ]
+    },
+    "page_of_wands":{
+        "attribute":[
+            "exploration", "excitement", "freedom"
+
+        ]
+    },
+    "wands_2":{
+        "attribute":[
+            "planning", "making decisions", "leaving home"
+
+        ]
+    },
+    "wands_3":{
+        "attribute":[
+            "looking ahead", "expansion", "rapid growth"
+
+        ]
+    },
+    "wands_4":{
+        "attribute":[
+            "community", "home", "celebration"
+        ]
+    },
+    "wands_5":{
+        "attribute":[
+            "competition", "rivalry", "conflict"
+
+        ]
+    },
+    "wands_6":{
+        "attribute":[
+            "victory", "success", "public reward"
+
+        ]
+    },
+    "wands_7":{
+        "attribute":[
+            "perseverance", "defensive", "maintaining control"
+
+        ]
+    },
+    "wands_8":{
+        "attribute":[
+            "rapid action", "movement", "quick decisions"
+
+        ]
+    },
+    "wands_9":{
+        "attribute":[
+            "resilience", "grit", "last stand"
+
+        ]
+    },
+    "wands_10":{
+        "attribute":[
+            "accomplishment", "responsibility", "burden"
+
+        ]
+    },
+    "ace_of_wands":{
+        "attribute":[
+            "creation", "willpower", "inspiration", "desire"
+
+        ]
+    },
+    "ace_of_cups":{
+        "attribute":[
+            "new feelings", "spirituality", "intuition"
+        ]
+    },
+    "cups_2":{
+        "attribute":[
+            "unity", "partnership", "connection"
+        ]
+    },
+    "cups_3":{
+        "attribute":[
+            "friendship", "community", "happiness"
+        ]
+    },
+    "cups_4":{
+        "attribute":[
+            "apathy", "contemplation", "disconnectedness"
+        ]
+    },
+    "cups_5":{
+        "attribute":[
+            "loss", "grief", "self-pity"
+        ]
+    },
+    "cups_6":{
+        "attribute":[
+            "familiarity", "happy memories", "healing"
+        ]
+    },
+    "cups_7":{
+        "attribute":[
+            "searching for purpose", "choices", "daydreaming"
+        ]
+    },
+    "cups_8":{
+        "attribute":[
+            "walking away", "disillusionment", "leaving behind"
+        ]
+    },
+    "cups_9":{
+        "attribute":[
+            "satisfaction", "emotional stability", "luxury"
+        ]
+    },
+    "cups_10":{
+        "attribute":[
+            "inner happiness", "fulfillment", "dreams coming true"
+        ]
+    },
+    "page_of_cups":{
+        "attribute":[
+            "happy surprise", "dreamer", "sensitivity"
+        ]
+    },
+    "knight_of_cups":{
+        "attribute":[
+            "following the heart", "idealist", "romantic"
+        ]
+    },
+    "queen_of_cups":{
+        "attribute":[
+            "compassion", "calm", "comfort"
+        ]
+    },
+    "king_of_cups":{
+        "attribute":[
+            "compassion", "control", "balance"
+        ]
+    },
+    "king_of_swords":{
+        "attribute":[
+            "head over heart", "discipline", "truth"
+        ]
+    },
+    "knight_of_swords":{
+        "attribute":[
+            "action", "impulsiveness", "defending beliefs"
+        ]
+    },
+    "queen_of_swords":{
+        "attribute":[
+            "complexity", "perceptiveness", "clear mindedness"
+        ]
+    },
+    "page_of_swords":{
+        "attribute":[
+            "curiosity", "restlessness", "mental energy"
+        ]
+    },
+    "swords_10":{
+        "attribute":[
+            "failure", "collapse", "defeat"
+        ]
+    },
+    "swords_9":{
+        "attribute":[
+            "anxiety", "hopelessness", "trauma"
+        ]
+    },
+    "swords_8":{
+        "attribute":[
+            "imprisonment", "entrapment", "self-victimization"
+        ]
+    },
+    "swords_7":{
+        "attribute":[
+            "deception", "trickery", "tactics and strategy"
+        ]
+    },
+    "swords_6":{
+        "attribute":[
+            "transition", "leaving behind", "moving on"
+        ]
+    },
+    "swords_5":{
+        "attribute":[
+            "unbridled ambition", "win at all costs", "sneakiness"
+        ]
+    },
+    "swords_3":{
+        "attribute":[
+            "happy surprise", "dreamer", "sensitivity"
+        ]
+    },
+    "swords_4":{
+        "attribute":[
+            "rest", "restoration", "contemplation"
+        ]
+    },
+    "swords_2":{
+        "attribute":[
+            "difficult choices", "indecision", "stalemate"
+        ]
+    },
+    "ace_of_swords":{
+        "attribute":[
+            "breakthrough", "clarity", "sharp mind"
+        ]
+    },
+    "king_of_pantacles":{
+        "attribute":[
+            "abundance", "prosperity", "security"
+        ]
+    },
+    "queen_of_pentacles":{
+        "attribute":[
+            "practicality", "creature comforts", "financial security"
+        ]
+    },
+    "pentacles_10":{
+        "attribute":[
+            "legacy", "culmination", "inheritance"
+        ]
+    },
+    "pentacles_9":{
+        "attribute":[
+            "fruits of labor", "rewards", "luxury"
+        ]
+    },
+    "pentacles_8":{
+        "attribute":[
+            "apprenticeship", "passion", "high standards"
+        ]
+    },
+    "pentacles_7":{
+        "attribute":[
+            "hard work", "perseverance", "diligence"
+        ]
+    },
+    "pentacles_6":{
+        "attribute":[
+            "charity", "generosity", "sharing"
+        ]
+    },
+    "pentacles_5":{
+        "attribute":[
+            "need", "poverty", "insecurity"
+        ]
+    },
+    "pentacles_4":{
+        "attribute":[
+            "conservation", "frugality", "security"
+        ]
+    },
+    "pentacles_3":{
+        "attribute":[
+            "teamwork", "collaboration", "building"
+        ]
+    },
+    "pentacles_2":{
+        "attribute":[
+            "balancing decisions", "priorities", "adapting to change"
+        ]
+    },
+    "ace_of_pentacles":{
+        "attribute":[
+            "opportunity", "prosperity", "new venture"
+        ]
+    },
+    "page_of_pentacles":{
+        "attribute":[
+            "ambition", "desire", "diligence" 
+        ]
+    },
+    "knight_of_pentacles":{
+        "attribute":[
+            "abundance", "prosperity", "security"
+        ]
+    }
+}
