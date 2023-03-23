@@ -6,19 +6,21 @@ from conversation import Conversation
 class TarotBot(commands.Bot):
     def __init__(self, command_prefix, **options):
         super().__init__(command_prefix, **options)
-        self.conversations = []
+        self.conversations = {}
 
     async def on_ready(self):
         print(f'Logged in as {self.user} (ID: {self.user.id})')
         print('------')
 
     async def on_message(self, msg):
-        if not msg.author.bot and bot.user.mentioned_in(msg) and msg.author not in self.conversations:
-            self.conversations.append(msg.author)
-            print(self.conversations)
-            conv = Conversation(msg)
-            await conv.start()
-            self.conversations.remove(msg.author)
+        if not msg.author.bot and not msg.author == self.user and bot.user.mentioned_in(msg):
+            if msg.author not in self.conversations.keys():
+                conversation = Conversation(msg.channel, msg.author, self)
+                self.conversations[msg.author] = conversation
+            conversation = self.conversations[msg.author]
+            await conversation.on_message(msg)
+            if conversation.ended():
+                del self.conversations[msg.author]
 
 
 if __name__ == '__main__':
