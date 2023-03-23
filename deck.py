@@ -2,6 +2,7 @@ import json
 from random import choices
 from PIL import Image
 from os import path
+from nltk.sentiment import SentimentIntensityAnalyzer as SA
 
 
 class Card:
@@ -16,6 +17,7 @@ class Card:
         self.readable_name = self.name.replace('_', ' ').title()
         self.desc = desc
         self.image = Image.open(path.join(path.dirname(__file__), "deck", f"{self.name}.png"))
+        self.sentiment = self.desc
 
 
 class Deck:
@@ -59,3 +61,14 @@ def display_three_cards(cards: list[Card, Card, Card], image_border: int = 20):
     image.paste(card_images[2], (3 * image_border + 2 * card_width, image_border))
 
     return image
+
+def card_sentiment(description):
+    """
+    Return the sentiment values of all cards
+    :param cards: A list of three Tarot cards.
+    :return: A list of the sentiment directories of each card
+    """
+
+    sentence = ' '.join(description)
+    ta = SA.polarity_scores(sentence)
+    return ta
