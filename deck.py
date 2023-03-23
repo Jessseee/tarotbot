@@ -2,7 +2,7 @@ import json
 from random import choices
 from PIL import Image
 from os import path
-from nltk.sentiment import SentimentIntensityAnalyzer as SA
+from nltk.sentiment import SentimentIntensityAnalyzer
 
 
 class Card:
@@ -17,7 +17,7 @@ class Card:
         self.readable_name = self.name.replace('_', ' ').title()
         self.desc = desc
         self.image = Image.open(path.join(path.dirname(__file__), "deck", f"{self.name}.png"))
-        self.sentiment = self.desc
+        self.sentiment = card_sentiment(desc)
 
 
 class Deck:
@@ -62,13 +62,26 @@ def display_three_cards(cards: list[Card, Card, Card], image_border: int = 20):
 
     return image
 
+
 def card_sentiment(description):
     """
     Return the sentiment values of all cards
     :param cards: A list of three Tarot cards.
     :return: A list of the sentiment directories of each card
     """
-
+    SA = SentimentIntensityAnalyzer()
     sentence = ' '.join(description)
     ta = SA.polarity_scores(sentence)
     return ta
+
+
+def three_cards_sentiment(cards: list[Card, Card, Card]):
+    """
+    Return the avarage sentiment for eacht card. This is based on the compound score.
+    :param cards: A list of three Tarot cards.
+    :return: A float that corresponds to the avarage compound score of three tarot cards.
+    """
+    avg_score = 0
+    for card in cards:
+        avg_score += card.sentiment.get('compound')
+    return int(avg_score*100)
